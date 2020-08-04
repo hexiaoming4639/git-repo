@@ -16,6 +16,6 @@ spring:
 #     port: 6379
 girl: 
   name: hhm
-  age: 27
+  age: 26
 env:
   dev3
