@@ -3,26 +3,26 @@ spring:
     name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+    username: els_db_user
+    password: H1@Y7A42g#Oo@s%gwf99#yWmfJih%G1wwUHM
+    url: jdbc:mysql://gz-cdb-cvuqoqsl.sql.tencentcdb.com:61663/sc_sell?characterEncoding=utf-8&useSSL=false
   rabbitmq:
-    host: 127.0.0.1
+    host: 192.168.1.6
     port: 5672
     username: guest
     password: guest
-  redis:
-    host: 127.0.0.1
-    port: 6379
+#   redis:
+#     host: 192.168.1.6
+#     port: 6379
 env:
-  test13
+  test
 girl:
   name: mo
   age: 17
-feign:
-  client:
-    config:
-      default:
-        connectTimeout: 5000
-        readTimeout: 5000
-        loggerLevel: basic  
+# feign:
+#   client:
+#     config:
+#       default:
+#         connectTimeout: 5000
+#         readTimeout: 5000
+#         loggerLevel: basic  
